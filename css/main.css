@@ -1,0 +1,49 @@
+body{
+    background-color:  #B9BED7;
+   background-image: url(pic.jpg);
+ 
+    
+}
+
+body, 
+input{ 
+    font: 1em "Nanum Myeongjo"; 
+    color: #353639; 
+}
+
+a{
+    text-decoration:none; 
+    border-bottom: 1px dashed #363639; 
+}
+
+
+/* List */ 
+
+.list{ 
+    background-color:#fff; /*white*/
+    margin:20px auto;
+    width:100%; 
+    max-width:500px; 
+    padding:20px; 
+    border-radius:2px;
+    box-shadow:3px 3px 0 rgba(0,0,0,.1);
+    box-sizing:border-box;
+
+}
+
+.list .header{
+    font-family: "Nanum Myeongjo, cursive"; 
+    margin: 0 0 10px 0; 
+    
+}
+
+
+.input{
+    width:100%; 
+   
+}
+
+.input:focus{
+    outline:none; }
+
+
